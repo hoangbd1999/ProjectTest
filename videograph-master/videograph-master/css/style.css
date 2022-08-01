@@ -412,8 +412,8 @@ ol {
 }
 .header__nav__social a {
   color: #ffffff;
-  font-size: 15px;
-  margin-right: 18px;
+  font-size: 22px;
+  margin-right: 15px;
 }
 .header__nav__social a:last-child {
   margin-right: 0;
@@ -699,6 +699,20 @@ ol {
   color: #ffffff;
   margin-bottom: 0;
 }
+.sized span{
+  font-size: 60px;
+  color: red;
+}
+.sized p{
+  font-size: 60px;
+  color: rgb(156, 16, 147);
+}
+
+/* .header__nav__social a {
+  color: #ffffff;
+  font-size: 22px;
+  margin-right: 15px;
+} */
 
 /*---------------------
   Team

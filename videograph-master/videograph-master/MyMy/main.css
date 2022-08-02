@@ -11,10 +11,10 @@
   }
   
   body {
-    overflow: hidden;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+    /* overflow: hidden; */
+    /* display: -webkit-box;
+    display: -ms-flexbox; */
+    /* display: flex; */
     background: #111;
     -webkit-perspective: 1000px;
             perspective: 1000px;
@@ -136,10 +136,12 @@
   }
 
   #canvas {
-    background-color:transparent;   
-    color: transparent; 
+    background-color:transparent;
+     color: transparent; 
     margin: 0;
-    overflow: hidden;
+    margin-left: 2000px;
+    margin-top: 0;
+    overflow: hidden; 
     background-repeat: no-repeat;
     width: 100vw;
     
@@ -153,12 +155,12 @@
     overflow: hidden;
 }
 
-p {
+/* p {
     font-family: 'Dancing Script', cursive;
     font-family: 'Rampart One', cursive;
     font-size: 4vw;
     
-}
+} */
 
 #au{
   overflow: hidden;

@@ -228,7 +228,7 @@ span {
 .avatar {
     cursor: pointer;
     position: absolute;
-    top: 250%;
+    top: 50%;
     left: calc(50% - 100px);
 }
 
@@ -260,11 +260,11 @@ span {
     content: "▲";
     font-size: 1em;
 }
-.balloon > div > p {
-    font-size: 3.8em;
+.balloon > div > span {
+    font-size: 4.8em;
     color: white;
     position: relative;
-    top: 50px;
+    top: 30px;
     left: 50%;
     margin-left: -27px;
 }

@@ -34,8 +34,10 @@ span {
     font-family: "Wendy One", sans-serif;
 }
 .balloon > div {
-    width: 104px;
-    height: 140px;
+    /* width: 104px;
+    height: 140px; */
+    width: 50px;
+    height: 80px;
     background: rgba(182, 15, 97, 0.9);
     border-radius: 0;
     border-radius: 80% 80% 80% 80%;
@@ -59,7 +61,7 @@ span {
 }
 .balloon > div:nth-child(2) {
     background: rgba(242, 112, 45, 0.9);
-    left: 180px;
+    left: 160px;
     box-shadow: inset 10px 10px 10px rgba(222, 85, 14, 0.9);
     -webkit-animation: balloon2 6s ease-in-out infinite;
     -moz-animation: balloon2 6s ease-in-out infinite;
@@ -71,7 +73,7 @@ span {
 }
 .balloon > div:nth-child(3) {
     background: rgba(45, 181, 167, 0.9);
-    left: 300px;
+    left: 250px;
     box-shadow: inset 10px 10px 10px rgba(35, 140, 129, 0.9);
     -webkit-animation: balloon4 6s ease-in-out infinite;
     -moz-animation: balloon4 6s ease-in-out infinite;
@@ -83,7 +85,7 @@ span {
 }
 .balloon > div:nth-child(4) {
     background: rgba(190, 61, 244, 0.9);
-    left: 420px;
+    left: 340px;
     box-shadow: inset 10px 10px 10px rgba(173, 14, 240, 0.9);
     -webkit-animation: balloon1 5s ease-in-out infinite;
     -moz-animation: balloon1 5s ease-in-out infinite;
@@ -95,7 +97,7 @@ span {
 }
 .balloon > div:nth-child(5) {
     background: rgba(180, 224, 67, 0.9);
-    left: 540px;
+    left: 450px;
     box-shadow: inset 10px 10px 10px rgba(158, 206, 34, 0.9);
     -webkit-animation: balloon3 5s ease-in-out infinite;
     -moz-animation: balloon3 5s ease-in-out infinite;
@@ -107,7 +109,7 @@ span {
 }
 .balloon > div:nth-child(6) {
     background: rgba(242, 194, 58, 0.9);
-    left: -150px;
+    left: -50px;
     top: 200px;
     box-shadow: inset 10px 10px 10px rgba(234, 177, 15, 0.9);
     -webkit-animation: balloon4 3s ease-in-out infinite;
@@ -122,7 +124,7 @@ span {
 /* ================= 7 ====================== */
 .balloon > div:nth-child(7) {
     background: rgba(45, 181, 167, 0.9);
-    left: -30px;
+    left: 40px;
     top: 200px;
     box-shadow: inset 10px 10px 10px rgba(45, 181, 167, 0.9);
     -webkit-animation: balloon3 5s ease-in-out infinite;
@@ -137,7 +139,7 @@ span {
 /* ================= 8 ====================== */
 .balloon > div:nth-child(8) {
     background: rgba(242, 58, 165, 0.9);
-    left: 90px;
+    left: 100px;
     top: 200px;
     box-shadow: inset 10px 10px 10px rgba(242, 58, 165, 0.9);
     -webkit-animation: balloon2 3s ease-in-out infinite;
@@ -152,7 +154,7 @@ span {
 /* ================= 9 ====================== */
 .balloon > div:nth-child(9) {
     background: rgba(182, 15, 97, 0.9);
-    left: 210px;
+    left: 180px;
     top: 200px;
     box-shadow: inset 10px 10px 10px rgba(182, 15, 97, 0.9);
     -webkit-animation: balloon4 5s ease-in-out infinite;
@@ -167,7 +169,7 @@ span {
 /* ================= 10 ====================== */
 .balloon > div:nth-child(10) {
     background: rgba(242, 194, 58, 0.9);
-    left: 330px;
+    left: 260px;
     top: 200px;
     box-shadow: inset 10px 10px 10px rgba(234, 177, 15, 0.9);
     -webkit-animation: balloon1 6s ease-in-out infinite;
@@ -182,7 +184,7 @@ span {
 /* ================= 11 ====================== */
 .balloon > div:nth-child(11) {
     background: rgba(234, 15, 15, 0.9);
-    left: 450px;
+    left: 350px;
     top: 200px;
     box-shadow: inset 10px 10px 10px rgba(234, 15, 15, 0.9);
     -webkit-animation: balloon2 4s ease-in-out infinite;
@@ -197,7 +199,7 @@ span {
 /* ================= 12 ====================== */
 .balloon > div:nth-child(12) {
     background: rgba(64, 241, 28, 0.9);
-    left: 580px;
+    left: 430px;
     top: 200px;
     box-shadow: inset 10px 10px 10px rgba(64, 241, 28, 0.9);
     -webkit-animation: balloon1 3s ease-in-out infinite;
@@ -212,7 +214,7 @@ span {
 /* ================= 13 ====================== */
 .balloon > div:nth-child(13) {
     background: rgba(15, 219, 234, 0.9);
-    left: 700px;
+    left: 510px;
     top: 200px;
     box-shadow: inset 10px 10px 10px rgba(15, 219, 234, 0.9);
     -webkit-animation: balloon2 6s ease-in-out infinite;
@@ -228,13 +230,13 @@ span {
 .avatar {
     cursor: pointer;
     position: absolute;
-    top: 50%;
-    left: calc(50% - 100px);
+    top: 60%;
+    left: calc(40% - 100px);
 }
 
 .avatar__img {
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
     border: 5px solid rgba(234, 15, 150, 0.9);
     box-shadow: inset 10px 10px 10px rgba(15, 219, 234, 0.9);
@@ -256,16 +258,16 @@ span {
     color: rgba(182, 15, 97, 0.9);
     position: absolute;
     bottom: -11px;
-    left: 52px;
+    left: 30px;
     content: "▲";
     font-size: 1em;
 }
 .balloon > div > span {
-    font-size: 4.8em;
+    font-size: 3.6em;
     color: white;
     position: relative;
-    top: 30px;
-    left: 50%;
+    top: 17px;
+    left: 60%;
     margin-left: -27px;
 }
 /*BALLOON 1 4*/
@@ -418,10 +420,39 @@ span {
 }
 h1 {
     position: relative;
-    top: 200px;
+    top: 110px;
     text-align: center;
     color: white;
     font-size: 3.5em;
+}
+@-webkit-keyframes my {
+    0% { color: #F8CD0A; } 
+    50% { color: #fff;  } 
+    100% { color: #F8CD0A;  } 
+}
+@-moz-keyframes my { 
+    0% { color: #F8CD0A;  } 
+    50% { color: #fff;  }
+    100% { color: #F8CD0A;  } 
+}
+@-o-keyframes my { 
+    0% { color: #F8CD0A; } 
+    50% { color: #fff; } 
+    100% { color: #F8CD0A;  } 
+}
+@keyframes my { 
+    0% { color: #F8CD0A;  } 
+    50% { color: #fff;  }
+    100% { color: #F8CD0A;  } 
+} 
+.test {
+        /* background:#F8CD0A; */
+        font-size:24px;
+        font-weight:bold;
+    -webkit-animation: my 700ms infinite;
+    -moz-animation: my 700ms infinite; 
+    -o-animation: my 700ms infinite; 
+    animation: my 700ms infinite;
 }
 .swal-overlay {
     background-color: rgba(218, 57, 177, 0.45);

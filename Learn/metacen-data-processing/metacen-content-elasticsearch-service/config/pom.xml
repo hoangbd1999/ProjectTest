@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.6.1</version>
+        <relativePath /> <!-- lookup parent from repository -->
+    </parent>
+    
+    <groupId>com.elcom.itscore</groupId>
+    <artifactId>its-core-parent</artifactId>
+    <version>1.0.0</version>
+    <packaging>pom</packaging>
+    <modules>
+        <module>its-core-common</module>
+        <module>its-core-data</module>
+        <module>its-core-demo-process</module>
+        <module>its-core-gateway-service</module>
+        <module>its-core-security-cron-process</module>
+        <module>its-core-elastic-process-service</module>
+        <module>its-core-elastic-service</module>
+        <module>its-core-notify-trigger-process</module>
+        <module>its-core-toll-station-process-service</module>
+<!--        <module>its-core-heartbeat-process</module>-->
+        <module>its-core-manual-process-service</module>
+        <module>its-core-weight-station-process</module>
+        <module>its-core-recognition-process-service</module>
+        <module>its-core-backend-service</module>
+        <module>its-core-security-process-service</module>
+        <module>its-core-violation-process-service</module>
+        <module>its-core-delete-schedule-service</module>
+        <module>its-core-traffic-flow-process-service</module>
+        <module>its-core-click-house</module>
+    </modules>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <java.version>11</java.version>
+    </properties>
+    
+    <dependencies>
+        <!-- Loombok -->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <scope>provided</scope>
+        </dependency>
+        
+        <!-- Common -->
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.modelmapper</groupId>
+            <artifactId>modelmapper</artifactId>
+            <version>2.3.5</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.apache.commons/commons-text -->
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-text</artifactId>
+            <version>1.9</version>
+        </dependency>
+
+        <!-- Gson -->
+        <dependency>
+            <groupId>com.google.code.gson</groupId>
+            <artifactId>gson</artifactId>
+        </dependency>
+    </dependencies>
+</project>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+  <persistence-organisation name="com.elcom_sk365UserService_jar_0.0.1PU" transaction-type="RESOURCE_LOCAL">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <class>com.elcom.user.manage.model.User</class>
+    <class>com.elcom.metacen.acos.model.EventFaceRecognition</class>
+    <class>com.elcom.metacen.acos.model.FaceRecognition</class>
+    <class>com.elcom.metacen.satellite.model.VsatAis</class>
+    <class>com.elcom.metacen.contact.model.Countries</class>
+    <class>com.elcom.metacen.contact.model.ObjectTypes</class>
+    <class>com.elcom.metacen.contact.model.Organisation</class>
+    <properties>
+      <property name="javax.persistence.jdbc.url" value="jdbc:mysql://103.21.151.190:3306/idservice?zeroDateTimeBehavior=convertToNull"/>
+      <property name="javax.persistence.jdbc.user" value="idservice"/>
+      <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
+      <property name="javax.persistence.jdbc.password" value="KG9tafdafuv4YGH"/>
+    </properties>
+  </persistence-organisation>
+</persistence>

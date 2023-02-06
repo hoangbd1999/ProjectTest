@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+  <persistence-unit name="com.elcom_sk365RBACService_jar_0.0.1PU" transaction-type="RESOURCE_LOCAL">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <class>com.elcom.metacen.menumanagement.model.RoleState</class>
+    <class>com.elcom.metacen.menumanagement.model.RoleEvent</class>
+    <class>com.elcom.metacen.menumanagement.model.RoleResourcesPermission</class>
+    <class>com.elcom.metacen.menumanagement.model.RoleUser</class>
+    <class>com.elcom.metacen.menumanagement.model.Role</class>
+    <class>com.elcom.metacen.menumanagement.model.RoleMenu</class>
+    <class>com.elcom.metacen.menumanagement.model.Resources</class>
+    <class>com.elcom.metacen.menumanagement.model.Menu</class>
+    <class>com.elcom.metacen.menumanagement.model.MenuResources</class>
+    <properties>
+      <property name="javax.persistence.jdbc.url" value="jdbc:mysql://103.21.151.157:3306/rbacits?zeroDateTimeBehavior=convertToNull"/>
+      <property name="javax.persistence.jdbc.user" value="rbacits"/>
+      <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
+      <property name="javax.persistence.jdbc.password" value="LHHE4875JuVNs7ba"/>
+    </properties>
+  </persistence-unit>
+</persistence>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.6.1</version>
+        <relativePath /> <!-- lookup parent from repository -->
+    </parent>
+
+    <groupId>com.elcom.metacen</groupId>
+    <artifactId>metacen-core-parent</artifactId>
+    <version>1.0.0</version>
+    <name>metacen-core-parent</name>
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>metacen-common</module>
+        <module>metacen-abac-service</module>
+        <module>metacen-id-service</module>
+        <module>metacen-menu-management-service</module>
+        <module>metacen-gateway-service</module>
+        <module>metacen-notify-service</module>
+        <module>metacen-upload-service</module>
+        <module>metacen-contact-service</module>
+        <module>metacen-mapping-data-service</module>
+        <module>metacen-raw-data-service</module>
+        <module>metacen-comment-service</module>
+        <module>metacen-enrich-data-service</module>
+        <module>metacen-report-service</module>
+        <module>metacen-data-process-config-service</module>
+    </modules>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+    <dependencies>
+        <!-- Loombok -->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <scope>provided</scope>
+        </dependency>
+
+        <!-- Common -->
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.modelmapper</groupId>
+            <artifactId>modelmapper</artifactId>
+            <version>2.3.5</version>
+        </dependency>
+
+        <!-- Gson -->
+        <dependency>
+            <groupId>com.google.code.gson</groupId>
+            <artifactId>gson</artifactId>
+        </dependency>
+    </dependencies>
+</project>

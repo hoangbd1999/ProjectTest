@@ -1,0 +1,57 @@
+[    
+    {
+        "path": "/topology/node",
+        "method": "POST",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/topology/graph",
+        "method": "POST",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/topology/graph/deep",
+        "method": "POST",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/topology/topology",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/topology/topology",
+        "method": "POST",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/topology/topology",
+        "method": "PUT",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/topology/topology",
+        "method": "DELETE",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/topology/topology/node",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/topology/topology/node",
+        "method": "POST",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/topology/topology/node",
+        "method": "PUT",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/topology/topology/node",
+        "method": "DELETE",
+        "rabbit": "rpc"
+    }
+]

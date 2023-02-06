@@ -1,0 +1,274 @@
+[    
+    {
+        "path": "/user",
+        "method": "GET",
+        "rabbit": "rpc"
+    }, 
+    {
+        "path": "/user",
+        "method": "POST",
+        "rabbit": "rpc"
+    }, {
+        "path": "/user",
+        "method": "DELETE",
+        "rabbit": "rpc"
+    }, {
+        "path": "/user",
+        "method": "PUT",
+        "rabbit": "rpc"
+    }, {
+        "path": "/user/login",
+        "method": "POST",
+        "rabbit": "rpc"
+    }, {
+        "path": "/user/authorization",
+        "method": "POST",
+        "rabbit": "rpc"
+    }, {
+        "path": "/user/authentication",
+        "method": "POST",
+        "rabbit": "rpc"
+    }, {
+        "path": "/user/social-login/google",
+        "method": "POST",
+        "rabbit": "rpc"
+    }, {
+        "path": "/user/social-login/facebook",
+        "method": "POST",
+        "rabbit": "rpc"
+    }, {
+        "path": "/user/social-login/apple",
+        "method": "POST",
+        "rabbit": "rpc"
+    }, {
+        "path": "/user/uuidLst",
+        "method": "POST",
+        "rabbit": "rpc"
+    }, {
+        "path": "/user/email",
+        "method": "PUT",
+        "rabbit": "rpc"
+    }, {
+        "path": "/user/mobile",
+        "method": "PUT",
+        "rabbit": "rpc"
+    }, {
+        "path": "/user/password",
+        "method": "PUT",
+        "rabbit": "rpc"
+    }, {
+        "path": "/user/exist",
+        "method": "GET",
+        "rabbit": "rpc"
+    }, {
+        "path": "/user/forgotPassword",
+        "method": "GET",
+        "rabbit": "rpc"
+    }, {
+        "path": "/user/cms",
+        "method": "GET",
+        "rabbit": "rpc"
+    }, {
+        "path": "/user/status",
+        "method": "PUT",
+        "rabbit": "rpc"
+    }, {
+        "path": "/user/uuidAvatarLst",
+        "method": "POST",
+        "rabbit": "rpc"
+    }, {
+        "path": "/user/social/mobile",
+        "method": "PUT",
+        "rabbit": "rpc"
+    }, {
+        "path": "/user/verify/otp",
+        "method": "POST",
+        "rabbit": "rpc"
+    }, {
+        "path": "/user/resend/otp",
+        "method": "POST",
+        "rabbit": "rpc"
+    }, {
+        "path": "/user/forgotPassword/checkToken",
+        "method": "POST",
+        "rabbit": "rpc"
+    }, {
+        "path": "/user/forgotPassword",
+        "method": "PUT",
+        "rabbit": "rpc"
+    }, {
+        "path": "/user/sendEmail",
+        "method": "POST",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/user/test",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/user/test2",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/user/test3",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/user/organization",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/user/organization",
+        "method": "POST",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/user/organization",
+        "method": "PUT",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/user/organization",
+        "method": "DELETE",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/user/groups",
+        "method": "POST",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/user/groups",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/user/groups",
+        "method": "PUT",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/user/groups",
+        "method": "DELETE",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/user/organization",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/user/organization",
+        "method": "POST",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/user/organization",
+        "method": "PUT",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/user/organization",
+        "method": "DELETE",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/user/groupscameracroup",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/user/groupscameracroup",
+        "method": "POST",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/user/groupscameracroup",
+        "method": "PUT",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/user/groupscameracroup",
+        "method": "DELETE",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/user/groups/cameragroups",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/user/from-group/internal",
+        "method": "POST",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/user/groups/users",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/user/groups/owner",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/user/refreshToken",
+        "method": "POST",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/user/unit/all",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/user/unit",
+        "method": "POST",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/user/unit",
+        "method": "PUT",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/user/unit",
+        "method": "DELETE",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/user/unit/multi-delete",
+        "method": "DELETE",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/user/unit/all-user",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/user/site",
+        "method": "GET",
+        "rabbit": "rpc"
+    },    
+    {
+        "path": "/user/unit/event",
+        "method": "GET",
+        "rabbit": "rpc"
+    },    
+    {
+        "path": "/user/unit/manager",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/user/active",
+        "method": "PUT",
+        "rabbit": "rpc"
+    }
+]

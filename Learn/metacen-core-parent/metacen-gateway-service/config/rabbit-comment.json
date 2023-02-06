@@ -1,0 +1,27 @@
+[
+  {
+    "path": "/comment/internal",
+    "method": "GET",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/comment",
+    "method": "GET",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/comment",
+    "method": "POST",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/comment",
+    "method": "PUT",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/comment",
+    "method": "DELETE",
+    "rabbit": "rpc"
+  }
+]

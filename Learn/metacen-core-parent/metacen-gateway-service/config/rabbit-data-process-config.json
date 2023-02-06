@@ -1,0 +1,72 @@
+[
+  {
+    "path": "/data-process-config/data-process/internal",
+    "method": "GET",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/data-process-config/data-process",
+    "method": "POST",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/data-process-config/data-process/filter",
+    "method": "POST",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/data-process-config/data-process/status-change",
+    "method": "POST",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/data-process-config/data-process",
+    "method": "PUT",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/data-process-config/data-process",
+    "method": "DELETE",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/data-process-config/object-group-config/object-detection",
+    "method": "POST",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/data-process-config/object-group-config/object-detection",
+    "method": "PUT",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/data-process-config/object-group-config/object-detection",
+    "method": "DELETE",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/data-process-config/object-group-config/object-detection/filter",
+    "method": "POST",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/data-process-config/object-group-config/object-detection/status-change",
+    "method": "POST",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/data-process-config/object-group-general-config",
+    "method": "PUT",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/data-process-config/object-group-general-config",
+    "method": "GET",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/data-process-config/object-group-config/check-exist-object-group",
+    "method": "DELETE",
+    "rabbit": "rpc"
+  }
+]

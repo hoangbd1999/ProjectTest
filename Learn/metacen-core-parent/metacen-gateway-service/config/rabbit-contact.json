@@ -1,0 +1,497 @@
+[
+  {
+    "path": "/contact/country",
+    "method": "GET",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/contact/object-type",
+    "method": "GET",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/contact/object-type",
+    "method": "POST",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/contact/object-type",
+    "method": "PUT",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/contact/object-type",
+    "method": "DELETE",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/contact/aero",
+    "method": "GET",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/contact/aero",
+    "method": "DELETE",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/contact/aero",
+    "method": "PUT",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/contact/aero",
+    "method": "POST",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/contact/aero/filter",
+    "method": "POST",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/contact/people",
+    "method": "POST",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/contact/people/filter",
+    "method": "POST",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/contact/people",
+    "method": "PUT",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/contact/people",
+    "method": "GET",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/contact/people",
+    "method": "DELETE",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/contact/marine-vessel-info",
+    "method": "POST",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/contact/marine-vessel-info/filter",
+    "method": "POST",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/contact/marine-vessel-info",
+    "method": "PUT",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/contact/marine-vessel-info",
+    "method": "GET",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/contact/marine-vessel-info",
+    "method": "DELETE",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/contact/organisation",
+    "method": "GET",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/contact/organisation",
+    "method": "POST",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/contact/organisation/filter",
+    "method": "POST",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/contact/organisation",
+    "method": "PUT",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/contact/organisation",
+    "method": "DELETE",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/contact/comment",
+    "method": "POST",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/contact/comment",
+    "method": "PUT",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/contact/comment",
+    "method": "GET",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/contact/comment",
+    "method": "DELETE",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/contact/group",
+    "method": "POST",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/contact/group",
+    "method": "PUT",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/contact/group",
+    "method": "GET",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/contact/group",
+    "method": "DELETE",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/contact/side",
+    "method": "POST",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/contact/side",
+    "method": "PUT",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/contact/side",
+    "method": "GET",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/contact/side",
+    "method": "DELETE",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/contact/data-collector-config-value",
+    "method": "PUT",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/contact/data-collector-config",
+    "method": "GET",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/contact/data-collector-is-running",
+    "method": "PUT",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/contact/event",
+    "method": "GET",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/contact/event",
+    "method": "POST",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/contact/event/filter",
+    "method": "POST",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/contact/event",
+    "method": "PUT",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/contact/event",
+    "method": "DELETE",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/contact/areas",
+    "method": "GET",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/contact/areas",
+    "method": "POST",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/contact/areas/filter",
+    "method": "POST",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/contact/areas",
+    "method": "PUT",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/contact/areas",
+    "method": "DELETE",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/contact/keyword",
+    "method": "GET",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/contact/keyword",
+    "method": "POST",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/contact/keyword",
+    "method": "PUT",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/contact/keyword",
+    "method": "DELETE",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/contact/countries",
+    "method": "GET",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/contact/infrastructure",
+    "method": "GET",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/contact/infrastructure",
+    "method": "POST",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/contact/infrastructure/filter",
+    "method": "POST",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/contact/infrastructure",
+    "method": "PUT",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/contact/infrastructure",
+    "method": "DELETE",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/contact/other-vehicle",
+    "method": "GET",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/contact/other-vehicle",
+    "method": "POST",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/contact/other-vehicle/filter",
+    "method": "POST",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/contact/other-vehicle",
+    "method": "PUT",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/contact/other-vehicle",
+    "method": "DELETE",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/contact/other-object",
+    "method": "GET",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/contact/other-object",
+    "method": "POST",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/contact/other-object/filter",
+    "method": "POST",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/contact/other-object",
+    "method": "PUT",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/contact/other-object",
+    "method": "DELETE",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/contact/object/filter",
+    "method": "POST",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/contact/object",
+    "method": "DELETE",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/contact/object/check",
+    "method": "DELETE",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/contact/vessel-type",
+    "method": "GET",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/contact/vsat-data-source",
+    "method": "GET",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/contact/tile-map/filter",
+    "method": "POST",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/contact/keyword/grant",
+    "method": "POST",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/contact/keyword-data",
+    "method": "POST",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/contact/keyword-data",
+    "method": "DELETE",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/contact/keyword-data/media",
+    "method": "GET",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/contact/keyword-data/object",
+    "method": "POST",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/contact/keyword/internal",
+    "method": "GET",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/contact/keyword-data/internal",
+    "method": "POST",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/contact/object-group/unconfirmed/filter",
+    "method": "POST",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/contact/object-group/delete-confirm",
+    "method": "DELETE",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/contact/object-group/delete-unconfirmed",
+    "method": "DELETE",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/contact/object-group",
+    "method": "PUT",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/contact/object-group/name",
+    "method": "PUT",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/contact/object-group/confirmed/filter",
+    "method": "POST",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/contact/object-group/object-mapping",
+    "method": "PUT",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/contact/object-group/object-mapping",
+    "method": "DELETE",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/contact/object-group/object-mapping",
+    "method": "POST",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/contact/object-group/check-exist/internal",
+    "method": "GET",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/contact/object-group-define",
+    "method": "POST",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/contact/object-group-define",
+    "method": "PUT",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/contact/object-group-define/filter",
+    "method": "POST",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/contact/object-group-define/status-main-object-change",
+    "method": "POST",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/contact/object-group-define",
+    "method": "DELETE",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/contact/marine-vessel/ships-info",
+    "method": "POST",
+    "rabbit": "rpc"
+  }
+]

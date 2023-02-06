@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE log4j:configuration SYSTEM "log4j.dtd">
+
+<!-- Log4j Configuration -->
+<!--
+| For more configuration infromation and examples see the Jakarta Log4j
+| website: http://jakarta.apache.org/log4j
+-->
+<log4j:configuration xmlns:log4j="http://jakarta.apache.org/log4j/" debug="false">
+
+
+
+<!-- ************************************************************ -->
+<!-- ***************** Begin IMPLEMENT APPENDER ***************** -->
+<!-- ************************************************************ -->
+<!-- *** Begin IMPLEMENT COMMON APPENDER *** -->
+<appender name="ROOT_ASYNC" class="org.apache.log4j.AsyncAppender">
+<appender-ref ref="ROOT_FILE"/>
+<appender-ref ref="CONSOLE_OUT"/>
+<appender-ref ref="ALARM_FILE"/>
+</appender>
+
+<appender name="ROOT_FILE" class="org.apache.log4j.DailyRollingFileAppender">
+<param name="Threshold" value="INFO"/>
+<param name="File" value="H:/log/metacen-dispatcher-si/root/root.log"/>
+<param name="Append" value="true"/>
+<param name="DatePattern" value=".yyyyMMdd_HH"/>
+<layout class="org.apache.log4j.PatternLayout">
+<param name="ConversionPattern" value="[%-5p] - [%-23d{ISO8601}] - [%-12.12c] - [%-18.18t] - %m%n - %M.%L"/>
+</layout>
+</appender>
+
+<appender name="CONSOLE_OUT" class="org.apache.log4j.ConsoleAppender">
+<param name="Target" value="System.out"/>
+<param name="Threshold" value="OFF"/>
+<layout class="org.apache.log4j.PatternLayout">
+<param name="ConversionPattern" value="[%-5p] - [%-23d{ISO8601}] - [%-12.12c] - [%-18.18t] - %m%n - %M.%L"/>
+</layout>
+</appender>
+
+<appender name="ALARM_ASYNC" class="org.apache.log4j.AsyncAppender">
+<appender-ref ref="ALARM_FILE"/>
+</appender>
+
+<appender name="ALARM_FILE" class="org.apache.log4j.DailyRollingFileAppender">
+<param name="Threshold" value="WARN"/>
+<param name="File" value="H:/log/metacen-dispatcher-si/alarm/alarm.log"/>
+<param name="Append" value="true"/>
+<param name="DatePattern" value=".yyyyMMdd_HH"/>
+<layout class="org.apache.log4j.PatternLayout">
+<param name="ConversionPattern" value="[%-5p] - [%-23d{ISO8601}] - [%-12.12c] - [%-18.18t] - %m%n - %M.%L"/>
+</layout>
+</appender>
+<!-- *** End IMPLEMENT COMMON APPENDER   *** -->
+
+<appender name="MAIN_FILE" class="org.apache.log4j.DailyRollingFileAppender">
+<param name="Threshold" value="ALL"/>
+<param name="File" value="H:/log/metacen-dispatcher-si/main/main.log"/>
+<param name="Append" value="true"/>
+<param name="DatePattern" value=".yyyyMMdd_HH"/>
+<layout class="org.apache.log4j.PatternLayout">
+<param name="ConversionPattern" value="[%-5p] - [%-23d{ISO8601}] - [%-18.18t] - %m%n - %M.%L"/>
+</layout>
+</appender>
+
+<appender name="EVENT_PRODUCER_SERVER_ASYNC" class="org.apache.log4j.AsyncAppender">
+<appender-ref ref="EVENT_PRODUCER_SERVER_FILE"/>
+</appender>
+
+<appender name="EVENT_PRODUCER_SERVER_FILE" class="org.apache.log4j.DailyRollingFileAppender">
+<param name="Threshold" value="WARN"/>
+<param name="File" value="H:/log/metacen-dispatcher-si/event_producer_server/event_producer_server.log"/>
+<param name="Append" value="true"/>
+<param name="DatePattern" value=".yyyyMMdd_HH"/>
+<layout class="org.apache.log4j.PatternLayout">
+<param name="ConversionPattern" value="[%-5p] - [%-23d{ISO8601}] - [%-18.18t] - %m%n - %M.%L"/>
+</layout>
+</appender>
+
+<appender name="TRAFFIC_FILE" class="org.apache.log4j.DailyRollingFileAppender">
+<param name="Threshold" value="INFO"/>
+<param name="File" value="H:/log/metacen-dispatcher-si/traffic/traffic.log"/>
+<param name="Append" value="true"/>
+<param name="DatePattern" value=".yyyyMMdd_HH"/>
+<layout class="org.apache.log4j.PatternLayout">
+<param name="ConversionPattern" value="[%-23d{ISO8601}] - %m%n - %M.%L"/>
+</layout>
+</appender>
+
+<appender name="PROCESSING_ASYNC" class="org.apache.log4j.AsyncAppender">
+<appender-ref ref="PROCESSING_FILE"/>
+</appender>
+
+<appender name="PROCESSING_FILE" class="org.apache.log4j.DailyRollingFileAppender">
+<param name="Threshold" value="ALL"/>
+<param name="File" value="H:/log/metacen-dispatcher-si/processing/processing.log"/>
+<param name="Append" value="true"/>
+<param name="DatePattern" value=".yyyyMMdd_HH"/>
+<layout class="org.apache.log4j.PatternLayout">
+<param name="ConversionPattern" value="[%-5p] - [%-23d{ISO8601}] - [%-18.18t] - %m%n - %M.%L"/>
+</layout>
+</appender>
+
+<!-- ***************** End IMPLEMENT APPENDER ******************* -->
+<!-- ************************************************************ -->
+<!-- ************************************************************ -->
+<!-- ************************************************************ -->
+
+
+
+<!-- ************************************************************ -->
+<!-- ***************** Begin DEFINE APPENDER ******************** -->
+<!-- ************************************************************ -->
+<category name="main" additivity="false"> 
+ <appender-ref ref="MAIN_FILE"/>
+ <appender-ref ref="ALARM_FILE"/>
+</category>
+
+<category name="event_producer_server" additivity="false"> 
+ <appender-ref ref="EVENT_PRODUCER_SERVER_ASYNC"/> 
+ <appender-ref ref="ALARM_ASYNC"/> 
+</category>
+
+<category name="traffic" additivity="false">
+ <appender-ref ref="TRAFFIC_FILE"/>
+</category>
+
+<category name="processing" additivity="false"> 
+ <appender-ref ref="PROCESSING_ASYNC"/> 
+ <appender-ref ref="ALARM_ASYNC"/>
+</category>
+
+<root>
+<appender-ref ref="ROOT_ASYNC"/>
+</root>
+<!-- ***************** End DEFINE APPENDER ********************** -->
+<!-- ************************************************************ -->
+<!-- ************************************************************ -->
+<!-- ************************************************************ -->
+</log4j:configuration>

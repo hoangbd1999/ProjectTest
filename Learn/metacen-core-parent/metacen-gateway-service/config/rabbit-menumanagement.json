@@ -1,0 +1,49 @@
+[    
+    {
+        "path": "/menu-management/user",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/menu-management/role",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/menu-management/menu",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/menu-management/role",
+        "method": "POST",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/menu-management/menu/role-menu",
+        "method": "GET",
+        "rabbit": "rpc"
+    }
+    ,
+    {
+        "path": "/menu-management/menu/role-menu",
+        "method": "POST",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/menu-management/menu/role-menu-by-user",
+        "method": "GET",
+        "rabbit": "rpc"
+    }
+    ,
+    {
+        "path": "/menu-management/menu/role-menu-by-role",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/menu-management/menu/relation-resources",
+        "method": "GET",
+        "rabbit": "rpc"
+    }
+]

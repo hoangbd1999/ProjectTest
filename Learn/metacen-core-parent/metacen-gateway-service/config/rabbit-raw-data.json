@@ -1,0 +1,82 @@
+[    
+    {
+        "path": "/raw-data/vsat-ais/filter",
+        "method": "POST",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/raw-data/vsat-media/filter",
+        "method": "POST",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/raw-data/vsat-media/fetch-mail-info",
+        "method": "POST",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/raw-data/vsat-media/fetch-m3u8-file",
+        "method": "POST",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/raw-data/vsat-media/convert-and-fetch-video",
+        "method": "POST",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/raw-data/ais/filter",
+        "method": "POST",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/raw-data/position/overall",
+        "method": "POST",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/raw-data/position/overall/media",
+        "method": "POST",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/raw-data/position/overall/statistic/media",
+        "method": "POST",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/raw-data/satellite/filter",
+        "method": "POST",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/raw-data/satellite/filter-for-map",
+        "method": "POST",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/raw-data/vsat-media-relation/filter",
+        "method": "POST",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/raw-data/vsat-media-relation/detail",
+        "method": "POST",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/raw-data/ais-mapping/filter",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/raw-data/satellite",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/raw-data/trip",
+        "method": "POST",
+        "rabbit": "rpc"
+    }
+]

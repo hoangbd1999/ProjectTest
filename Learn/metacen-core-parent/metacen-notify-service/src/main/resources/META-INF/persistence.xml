@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+  <persistence-unit name="com.elcom_sk365UserService_jar_0.0.1PU" transaction-type="RESOURCE_LOCAL">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <class>com.elcom.user.manage.model.User</class>
+    <class>com.elcom.metacen.configgsxp.model.UserLog</class>
+    <class>com.elcom.metacen.configgsxp.model.UserLogStatistic</class>
+    <class>com.elcom.metacen.configgsxp.model.dto.Services</class>
+    <class>com.elcom.metacen.notify.model.PuVideoThreads</class>
+    <class>com.elcom.metacen.notify.model.BaseModels</class>
+    <class>com.elcom.metacen.notify.model.CameraLayouts</class>
+    <class>com.elcom.metacen.notify.model.LayoutAreas</class>
+    <class>com.elcom.metacen.notify.model.VehicleTrackNotify</class>
+    <class>com.elcom.metacen.notify.model.Servers</class>
+    <class>com.elcom.metacen.notify.model.Services</class>
+    <class>com.elcom.metacen.notify.model.VehicleTrack</class>
+    <class>com.elcom.metacen.notify.model.ModelProfiles</class>
+    <class>com.elcom.metacen.notify.model.ProcessUnitModels</class>
+    <class>com.elcom.metacen.notify.model.ProcessUnit</class>
+    <class>com.elcom.metacen.notify.model.CameraModels</class>
+    <class>com.elcom.metacen.notify.model.TrafficStatus</class>
+    <class>com.elcom.metacen.notify.model.ImageCamera</class>
+    <class>com.elcom.metacen.notify.model.Notify</class>
+    <properties>
+      <property name="javax.persistence.jdbc.url" value="jdbc:mysql://103.21.151.190:3306/idservice?zeroDateTimeBehavior=convertToNull"/>
+      <property name="javax.persistence.jdbc.user" value="idservice"/>
+      <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
+      <property name="javax.persistence.jdbc.password" value="KG9tafdafuv4YGH"/>
+    </properties>
+  </persistence-unit>
+</persistence>

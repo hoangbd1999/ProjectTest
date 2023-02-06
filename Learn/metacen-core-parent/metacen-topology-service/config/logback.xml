@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <include resource="org/springframework/boot/logging/logback/base.xml"/>
+<!--    <include resource="org/springframework/boot/logging/logback/defaults.xml"/>-->
+
+    <appender name="ROLLIN" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>logs/metacen-topology-service.log</file>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <!-- daily rollover -->
+            <fileNamePattern>logs/metacen-topology-service.%d{yyyy-MM-dd}.log</fileNamePattern>
+            
+            <!-- retain 30 days logs -->
+            <maxHistory>60</maxHistory>
+        </rollingPolicy>
+    
+        <encoder>
+            <!-- <pattern>%d %p %C{1.} [%t] %m%n</pattern> -->
+            <pattern>
+                %d{dd-MM-yyyy HH:mm:ss.SSS} %-5level %logger{36}.%M.%L - %msg%n
+            </pattern>
+        </encoder>
+    
+    </appender>
+
+    <!-- trace - debug - info - warn - error - fatal -->
+    <root level="INFO">
+        <appender-ref ref="ROLLIN" />
+    </root>
+
+    <logger name="root" level="ERROR"/>
+    <logger name="org.springframework" level="ERROR"/>
+<!--    <logger name="org.hibernate.type.descriptor.sql.BasicBinder" level="TRACE"/>-->
+<!--    <logger name="org.hibernate.SQL" level="DEBUG"/>-->
+    <logger name="elcom.com.neo4j" level="INFO"/>
+</configuration>

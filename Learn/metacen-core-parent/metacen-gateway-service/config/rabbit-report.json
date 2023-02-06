@@ -1,0 +1,17 @@
+[
+  {
+    "path": "/report/filter",
+    "method": "POST",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/report",
+    "method": "PUT",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/report",
+    "method": "DELETE",
+    "rabbit": "rpc"
+  }
+]

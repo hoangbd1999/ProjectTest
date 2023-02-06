@@ -1,0 +1,394 @@
+[
+    {
+        "path": "/systemconfig/sites",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/systemconfig/sites",
+        "method": "POST",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/systemconfig/sites",
+        "method": "PUT",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/systemconfig/sites",
+        "method": "DELETE",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/systemconfig/prisoner",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/systemconfig/prisoner",
+        "method": "POST",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/systemconfig/prisoner",
+        "method": "PUT",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/systemconfig/prisoner",
+        "method": "DELETE",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/systemconfig/layouts",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/systemconfig/layouts",
+        "method": "POST",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/systemconfig/layouts",
+        "method": "PUT",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/systemconfig/layouts",
+        "method": "DELETE",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/systemconfig/cameras",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/systemconfig/cameras",
+        "method": "POST",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/systemconfig/cameras",
+        "method": "PUT",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/systemconfig/cameras",
+        "method": "DELETE",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/systemconfig/camera/camera-types",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/systemconfig/category",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/systemconfig/category",
+        "method": "PUT",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/systemconfig/category",
+        "method": "POST",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/systemconfig/category",
+        "method": "DELETE",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/systemconfig/category/catType",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/systemconfig/camera/count-camera-by-site-id",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/systemconfig/group-camera",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/systemconfig/group-camera",
+        "method": "POST",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/systemconfig/group-camera",
+        "method": "PUT",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/systemconfig/group-camera",
+        "method": "DELETE",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/systemconfig/camera/group-camera/user",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/systemconfig/group-camera/search-cam",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/systemconfig/group-camera/internal",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/systemconfig/sites/camera-tree",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/systemconfig/sites/camera-tree-internal",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/systemconfig/group-camera/camera-tree",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/systemconfig/camera/camera-by-site",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/systemconfig/camera/camera-by-multi-site",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/systemconfig/vms",
+        "method": "GET",
+        "rabbit": "rpc"
+    }
+    ,
+    {
+        "path": "/systemconfig/vms",
+        "method": "POST",
+        "rabbit": "rpc"
+    }
+    ,
+    {
+        "path": "/systemconfig/vms",
+        "method": "PUT",
+        "rabbit": "rpc"
+    }
+    ,
+    {
+        "path": "/systemconfig/vms",
+        "method": "DELETE",
+        "rabbit": "rpc"
+    }
+    ,
+    {
+        "path": "/systemconfig/vms/camera",
+        "method": "GET",
+        "rabbit": "rpc"
+    }
+    ,
+    {
+        "path": "/systemconfig/vms/camera",
+        "method": "POST",
+        "rabbit": "rpc"
+    }
+    ,
+    {
+        "path": "/systemconfig/vms/connection",
+        "method": "GET",
+        "rabbit": "rpc"
+    }
+    ,
+    {
+        "path": "/systemconfig/vms/connection-by-info",
+        "method": "GET",
+        "rabbit": "rpc"
+    }
+    ,
+    {
+        "path": "/systemconfig/vms/multi-delete",
+        "method": "DELETE",
+        "rabbit": "rpc"
+    }
+    ,
+    {
+        "path": "/systemconfig/camera/camera-layout",
+        "method": "GET",
+        "rabbit": "rpc"
+    }
+    ,
+    {
+        "path": "/systemconfig/camera/camera-layout",
+        "method": "POST",
+        "rabbit": "rpc"
+    }
+    ,
+    {
+        "path": "/systemconfig/camera/camera-layout",
+        "method": "PUT",
+        "rabbit": "rpc"
+    }
+    ,
+    {
+        "path": "/systemconfig/camera/camera-layout",
+        "method": "DELETE",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/systemconfig/camera/camera-layout/layout-area",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/systemconfig/camera/camera-layout/layout-area",
+        "method": "POST",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/systemconfig/camera/camera-layout/layout-area",
+        "method": "PUT",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/systemconfig/camera/camera-layout/layout-area",
+        "method": "DELETE",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/systemconfig/camera/camera-layout/layouts",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/systemconfig/camera/camera-layout/layout-area/areas",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/systemconfig/camera/camera-layout/layout-area/id-max",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/systemconfig/camera/image-camera/images",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/systemconfig/camera/image-camera",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/systemconfig/camera/image-camera",
+        "method": "POST",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/systemconfig/camera/image-camera",
+        "method": "PUT",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/systemconfig/camera/image-camera",
+        "method": "DELETE",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/systemconfig/camera/live-image",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/systemconfig/process-unit",
+        "method": "POST",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/systemconfig/process-unit",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/systemconfig/process-unit",
+        "method": "PUT",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/systemconfig/process-unit",
+        "method": "DELETE",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/systemconfig/process-unit/multi-de",
+        "method": "DELETE",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/systemconfig/process-unit/video-threads",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/systemconfig/process-unit/video-threads",
+        "method": "POST",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/systemconfig/process-unit/video-threads",
+        "method": "PUT",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/systemconfig/process-unit/video-threads",
+        "method": "DELETE",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/systemconfig/process-unit/video-threads/multi-de",
+        "method": "DELETE",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/systemconfig/process-unit/video-threads/process-unit",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/systemconfig/process-unit/spec",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/systemconfig/process-unit/services",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/systemconfig/process-unit/server",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/systemconfig/process-unit/model-profiles",
+        "method": "GET",
+        "rabbit": "rpc"
+    }
+]

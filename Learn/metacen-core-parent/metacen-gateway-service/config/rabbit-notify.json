@@ -1,0 +1,27 @@
+[    
+    {
+        "path": "/notify",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/notify/number-notify",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/notify/send-notify",
+        "method": "POST",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/notify/read-all-notify",
+        "method": "POST",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/notify/read-notify",
+        "method": "POST",
+        "rabbit": "rpc"
+    }
+]

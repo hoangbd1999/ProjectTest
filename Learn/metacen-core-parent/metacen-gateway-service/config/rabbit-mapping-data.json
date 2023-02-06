@@ -1,0 +1,67 @@
+[
+  {
+    "path": "/mapping-data/vsat-metacen",
+    "method": "GET",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/mapping-data/vsat-metacen",
+    "method": "POST",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/mapping-data/vsat-metacen/filter",
+    "method": "POST",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/mapping-data/vsat-metacen",
+    "method": "PUT",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/mapping-data/vsat-metacen",
+    "method": "DELETE",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/mapping-data/ais-metacen",
+    "method": "GET",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/mapping-data/ais-metacen",
+    "method": "POST",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/mapping-data/ais-metacen/filter",
+    "method": "POST",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/mapping-data/ais-metacen",
+    "method": "PUT",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/mapping-data/ais-metacen",
+    "method": "DELETE",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/mapping-data/vsat-metacen/check-mapping",
+    "method": "POST",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/mapping-data/vsat-metacen/check-mapping-by-object-uuid",
+    "method": "POST",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/mapping-data/vsat-metacen/change-name",
+    "method": "PUT",
+    "rabbit": "rpc"
+  }
+]

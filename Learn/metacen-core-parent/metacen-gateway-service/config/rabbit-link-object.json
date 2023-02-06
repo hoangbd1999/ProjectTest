@@ -1,0 +1,12 @@
+[
+    {
+        "path": "/link-object/graph/deep",
+        "method": "POST",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/link-object/graph/contains",
+        "method": "POST",
+        "rabbit": "rpc"
+    }
+]

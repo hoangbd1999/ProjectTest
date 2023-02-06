@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<properties>
+    <category name="SETTINGS">
+        
+        <!--<property name="DATA_MINING_PATH" value="/mnt/data/thanhdd/remote_sensing/Sentinel2/bienDong_infor" />-->
+        <property name="DATA_MINING_PATH" value="H:\\SatelliteImageDataFolder\\bienDong_infor" />
+        
+        <property name="CLEAN_FOLDER_PATH" value="/ttttbien2/metacen/satellite-images/bienDong" />
+        
+        <!--<property name="DEST_UPLOAD_PATH" value="/ttttbien2/metacen/satellite-images" />-->
+        <property name="DEST_UPLOAD_PATH" value="\\192.168.6.163\vsat\ttttbien2\metacen\satellite-images" />
+
+        <property name="NUM_THREAD_DECODE" value="8" />
+        
+        <property name="NUM_THREAD_SEND" value="2" />
+        
+        <property name="MAX_FILES_PER_SCAN" value="8" />
+		
+        <property name="SATELLITE_NAME" value="Sentinel2" />
+        
+        <property name="DATA_VENDOR" value="SATELLITE-IMAGE-01" />
+
+        <property name="KAFKA_BROKER" value="192.168.51.18:29092,192.168.51.18:29093,192.168.51.18:29094" />
+        
+        <property name="KAFKA_TOPIC" value="SATELLITE_IMAGE_RAW" />
+        
+        <!--<property name="GEOSERVER_URL" value="http://192.168.51.18:8880/geoserver" />-->
+        <property name="GEOSERVER_URL" value="http://localhost:8080/geoserver" />
+        
+        <property name="GEOSERVER_WORKSPACE" value="new-workspace" />
+        
+    </category>
+</properties>

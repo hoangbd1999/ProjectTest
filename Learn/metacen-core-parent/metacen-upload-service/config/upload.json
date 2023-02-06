@@ -1,0 +1,20 @@
+[
+    {
+        "path": "/upload/user/avatar",
+        "folder": "/upload/user/avatar/{ddmmyyyy}",
+        "accept": "image/jpeg,image/png,image/gif,image/bmp",
+        "maxSize": 5242880
+    },
+    {
+        "path": "/upload/object/image",
+        "folder": "/upload/object/image/{ddmmyyyy}",
+        "accept": "image/jpeg,image/png,image/gif,image/bmp,image/*",
+        "maxSize": 5242880
+    },
+    {
+        "path": "/upload/object/file",
+        "folder": "/upload/object/file/{ddmmyyyy}",
+        "accept": "application/msword,application/vnd.openxmlformats-officedocument.wordprocessingml.document,application/pdf,application/vnd.openxmlformats-officedocument.spreadsheetml.sheet,application/vnd.ms-excel",
+        "maxSize": 20971520
+    }
+]

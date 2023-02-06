@@ -1,0 +1,97 @@
+[
+  {
+    "path": "/enrich-data/satellite/filter",
+    "method": "POST",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/enrich-data/satellite",
+    "method": "GET",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/enrich-data/satellite",
+    "method": "DELETE",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/enrich-data/satellite/filter-for-map",
+    "method": "POST",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/enrich-data/satellite-analyzed",
+    "method": "GET",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/enrich-data/vsat-media-analyzed",
+    "method": "GET",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/enrich-data/vsat-media-analyzed/filter",
+    "method": "POST",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/enrich-data/satellite-capture-time",
+    "method": "GET",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/enrich-data/note/internal",
+    "method": "POST",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/enrich-data/satellite-comparison",
+    "method": "POST",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/enrich-data/satellite-comparison/filter",
+    "method": "POST",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/enrich-data/satellite-comparison",
+    "method": "DELETE",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/enrich-data/satellite-comparison",
+    "method": "GET",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/enrich-data/vsat-media-data-object-analyzed",
+    "method": "GET",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/enrich-data/vsat-media-data-object-analyzed",
+    "method": "POST",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/enrich-data/vsat-media-data-object-analyzed",
+    "method": "DELETE",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/enrich-data/vsat-media-data-object-analyzed/change-name",
+    "method": "PUT",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/enrich-data/vsat-ais/search-list-all-general",
+    "method": "POST",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/enrich-data/vessel/detail",
+    "method": "GET",
+    "rabbit": "rpc"
+  }
+]
